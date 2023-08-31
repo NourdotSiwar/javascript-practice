@@ -21,7 +21,7 @@ const numberOfProblems = 16
  */
 function runTest(number) {
     // Get the problem and test cases from the file
-    const { problem, tests } = require(`./problems/${number}`);
+    const { problem, tests } = require(`./problems/${number}.cjs`);
     
     // Initialize passed counter and failed list
     let passed = 0;
